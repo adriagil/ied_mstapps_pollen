@@ -4,7 +4,7 @@
     el: $('.pollen-map-container'),
 
     template: 'plantsMap',
-
+    
     /*events: {
       "click .pollen-map-container h1": "changeColor"
     },*/

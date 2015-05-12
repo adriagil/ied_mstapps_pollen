@@ -2,7 +2,8 @@
 
   Pollen.Router = Backbone.Router.extend({
     routes: {
-      '': 'homeRoute'
+      '': 'homeRoute',
+      'plantsList': 'plantsList'
     },
 
     homeRoute: function() {
