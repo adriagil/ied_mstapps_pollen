@@ -17,5 +17,5 @@ var NodeApp     = express();
 // once the server is up and running go to the browser and type: http://localhost:3000
 var server      = http.createServer(NodeApp).listen(3000);
 
-// put the index.html in the proper path, in this case inside /application folder
+// put the index.html in the proper path, in this case inside /app folder
 NodeApp.use(express.static(__dirname + '/app'));
